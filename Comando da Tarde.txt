@@ -5,3 +5,52 @@ remote: Counting objects: 100% (3/3), done.
 remote: Compressing objects: 100% (3/3), done.
 remote: Total 3 (delta 0), reused 3 (delta 0), pack-reused 0
 Receiving objects: 100% (3/3), 90.02 KiB | 30.01 MiB/s, done.
+
+
+
+
+
+
+
+
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Comando da Tarde.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\24153843\Documents\TARDE AULA\Versionamento>git add .
+
+C:\Users\24153843\Documents\TARDE AULA\Versionamento>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   Comando da Tarde.txt
+
+
+
+
+
+
+
+
+C:\Users\24153843\Documents\TARDE AULA\Versionamento>git commit -m "Arquivo de comando da tarde txt"
+[main 8189c86] Arquivo de comando da tarde txt
+ Committer: PEDRO NATHAN TORRES PEREIRA <24153843@edu119.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 7 insertions(+)
+ create mode 100644 Comando da Tarde.txt
